@@ -1,0 +1,37 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Data Files (FORÇAR inclusão das bases de dados)
+data/*.csv
+!data/Telco-Customer-Churn.csv
+!data/train.csv
+!data/val.csv
+!data/test.csv
+!data/previsoes_finais.csv
+
+# Trained Models (FORÇAR inclusão dos modelos para o professor Altino ver)
+!models/random_forest_model.pkl
+!models/xgboost_model.pkl
+
+# MLflow files
+mlruns/
+mlflow.db
+
+# Environments / Configs
+.env
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
